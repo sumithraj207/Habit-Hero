@@ -1,0 +1,33 @@
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── HabitHero specific ────────────────────
+# Your save file (personal progress — don't share)
+habithero_save.json
+
+# Your API key file — NEVER commit this!
+.env
+
+# ── OS files ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
